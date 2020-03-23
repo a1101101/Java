@@ -1,0 +1,9 @@
+単語集
+
+Package:
+javaファイルの集合
+機能的にはC++のnamespaceに近い？
+
+Module:
+Packageの集合
+jarの生成単位
