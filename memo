@@ -1,7 +1,7 @@
 単語集
 
 Package:
-javaファイルの集合
+.javaファイルの集合
 機能的にはC++のnamespaceに近い？
 
 Module:
