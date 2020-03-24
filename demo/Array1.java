@@ -1,4 +1,3 @@
-package demo;
 import java.util.Scanner;
 import java.lang.Integer;
 import java.util.ArrayList;
