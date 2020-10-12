@@ -18,7 +18,7 @@ public static void main(String args[]) throws IOException {
 		System.out.println("Something went wrong.");
 	}finally {
 		if(in != null){
-				in.close();
+			in.close();
 		}
 		if(out != null){
 			out.close();
