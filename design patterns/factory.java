@@ -33,10 +33,10 @@ class M{
 	public static void main(String args[]){
 		Factory factory = new Factory();
 		
-		Item i = factory.getItem("J");
-		i.f();
-		
-		Item j = factory.getItem("K");
+		Item j = factory.getItem("J");
 		j.f();
+		
+		Item k = factory.getItem("K");
+		k.f();
 	}
 }
