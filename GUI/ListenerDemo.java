@@ -39,7 +39,6 @@ class ListenerDemo{
 	
 	//show button
 	private void show(){
-	
 		//panel for button
       		panel = new JPanel();
 	  
