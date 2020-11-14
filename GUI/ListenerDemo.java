@@ -22,8 +22,8 @@ class ListenerDemo{
 		//add close window event
 		frame.addWindowListener(new WindowAdapter() {
 			public void windowClosing(WindowEvent windowEvent){
-            System.exit(0);
-         }      
+            			System.exit(0);
+         		}      
 		});
 		
 		//show objects
@@ -39,15 +39,16 @@ class ListenerDemo{
 	
 	//show button
 	private void show(){
-	  //panel for button
-      panel = new JPanel();
+	
+		//panel for button
+      		panel = new JPanel();
 	  
-	  //create button and add to panel
-      button = new JButton("OK");
-	  button.addActionListener(new ButtonListener());
-      panel.add(button);
-      controlPanel.add(panel);
-	  frame.setVisible(true);
+		//create button and add to panel
+      		button = new JButton("OK");
+		button.addActionListener(new ButtonListener());
+      		panel.add(button);
+      		controlPanel.add(panel);
+		frame.setVisible(true);
 	}
 	
 	//ActionListener for button
