@@ -13,7 +13,6 @@ class ListenerDemo{
 	public ListenerDemo(){
 		frame = new JFrame("ListenerDemo");
 		frame.setSize(500,400);
-		frame.setLayout(new GridLayout(3, 1));
 		
 		controlPanel = new JPanel();
 		controlPanel.setLayout(new FlowLayout());
